@@ -6,7 +6,7 @@ import logging
 from datetime import datetime
 
 from ai_extractor import AIExtractor
-from redactor import Redactor  
+from redactor import ContentRedactor
 from rfq_generator import RFQGenerator
 
 app = Flask(__name__)
