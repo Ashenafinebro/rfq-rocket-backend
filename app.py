@@ -5,7 +5,7 @@ import os
 import logging
 from datetime import datetime
 
-from ai_extractor import AiExtractor
+from ai_extractor import AIExtractor
 from redactor import Redactor  
 from rfq_generator import RFQGenerator
 
