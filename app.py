@@ -5,9 +5,9 @@ import os
 import logging
 from datetime import datetime
 
-from services.ai_extractor import AIExtractor
-from services.redactor import ContentRedactor
-from services.rfq_generator import RFQGenerator
+from ai_extractor import AiExtractor
+from redactor import Redactor  
+from rfq_generator import RFQGenerator
 
 app = Flask(__name__)
 CORS(app)
